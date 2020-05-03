@@ -26,6 +26,17 @@ var orm = {
             }
             cb(res);
           });
+        }
+  //UPDATE QUERY      
+ updateOne: function(table,objColCals, condition, cb) {
+        var dbQuery "
+        UPDATE"+
+        table +
+        "SET" +
+        translateSQL(obkColVals)+
+        "WHERE" +
+        CONDITION;
+    }
         },
     }
 }
