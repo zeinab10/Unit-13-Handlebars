@@ -1,8 +1,8 @@
 {
-  "name": "burger",
+  "name": "unit-13-handlebars",
   "version": "1.0.0",
   "description": "Node Express Handlebars",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/zeinab10/Unit-13-Handlebars#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "node": "^14.0.0",
+    "tslint": "^5.20.1"
   }
 }

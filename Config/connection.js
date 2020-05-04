@@ -1,10 +1,10 @@
-var mysql = require("./node_modules/mysql");
+var mysql = require("mysql");
 var connection = mysql.createConnection({
     host: "localhost",
-    port: 3000,
+    port: 3306,
     user: "root",
     password: "zj526670",
-    database:""
+    database:"burgers_db"
 });
 
 //Make connection
